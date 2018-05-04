@@ -1,0 +1,35 @@
+[package]
+name = "linux-in-practice"
+version = "0.1.0"
+authors = ["gyu-don <takumi.kt+git@gmail.com>"]
+
+[dependencies]
+nix = "0.10.0"
+
+[[bin]]
+name = "hello"
+path = "02-syscall-and-non-kernel-os/hello.rs"
+
+[[bin]]
+name = "loop"
+path = "02-syscall-and-non-kernel-os/loop.rs"
+
+[[bin]]
+name = "ppidloop"
+path = "02-syscall-and-non-kernel-os/ppidloop.rs"
+
+[[bin]]
+name = "fork"
+path = "03-process-management/fork.rs"
+
+[[bin]]
+name = "fork-and-exec"
+path = "03-process-management/fork-and-exec.rs"
+
+[[bin]]
+name = "sched"
+path = "04-process-scheduler/sched.rs"
+
+[[bin]]
+name = "sched_nice"
+path = "04-process-scheduler/sched_nice.rs"
