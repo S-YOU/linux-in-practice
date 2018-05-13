@@ -28,7 +28,7 @@ fn main() {
 
     let mut i = 0;
     while i < BUFFER_SIZE {
-        p[i] = 0;
+        p[i] = 0u8;
         let cycle = i / (BUFFER_SIZE / NCYCLE);
         if cycle != 0 && i % (BUFFER_SIZE / NCYCLE) == 0 {
             let t = time::now();
