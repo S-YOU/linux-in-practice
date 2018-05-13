@@ -50,3 +50,7 @@ path = "05-memory-management/filemap.rs"
 [[bin]]
 name = "demand-paging"
 path = "05-memory-management/demand-paging.rs"
+
+[[bin]]
+name = "cow"
+path = "05-memory-management/cow.rs"
