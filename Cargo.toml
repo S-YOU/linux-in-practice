@@ -5,6 +5,7 @@ authors = ["gyu-don <takumi.kt+git@gmail.com>"]
 
 [dependencies]
 nix = "0.10.0"
+time = "0.1.40"
 
 [[bin]]
 name = "hello"
@@ -45,3 +46,7 @@ path = "05-memory-management/mmap.rs"
 [[bin]]
 name = "filemap"
 path = "05-memory-management/filemap.rs"
+
+[[bin]]
+name = "demand-paging"
+path = "05-memory-management/demand-paging.rs"
