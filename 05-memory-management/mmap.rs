@@ -26,8 +26,8 @@ fn main() {
             .expect("mmap() failed")
     };
     println!("");
-    println!("*** succeeded to allocate memory: address = 0x{:x}; size = 0x{:x} ***",
-             new_memory as usize,
+    println!("*** succeeded to allocate memory: address = {:?}; size = {:#x} ***",
+             new_memory,
              ALLOC_SIZE);
 
     println!("");
