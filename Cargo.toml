@@ -41,3 +41,7 @@ path = "05-memory-management/segv.rs"
 [[bin]]
 name = "mmap"
 path = "05-memory-management/mmap.rs"
+
+[[bin]]
+name = "filemap"
+path = "05-memory-management/filemap.rs"
