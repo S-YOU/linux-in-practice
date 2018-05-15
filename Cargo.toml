@@ -54,3 +54,7 @@ path = "05-memory-management/demand-paging.rs"
 [[bin]]
 name = "cow"
 path = "05-memory-management/cow.rs"
+
+[[bin]]
+name = "cache"
+path = "06-storage-hierarchy/cache.rs"
