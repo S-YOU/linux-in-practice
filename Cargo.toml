@@ -6,6 +6,7 @@ authors = ["gyu-don <takumi.kt+git@gmail.com>"]
 [dependencies]
 nix = "0.10.0"
 time = "0.1.40"
+rand = "0.4.2"
 
 [[bin]]
 name = "hello"
@@ -58,3 +59,7 @@ path = "05-memory-management/cow.rs"
 [[bin]]
 name = "cache"
 path = "06-storage-hierarchy/cache.rs"
+
+[[bin]]
+name = "io"
+path = "08-storage-device/io.rs"
